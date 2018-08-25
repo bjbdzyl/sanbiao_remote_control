@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ea:ea-upload:1.0.13-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Program Files/gradle_download/caches/modules-2/files-2.1/com.ea/ea-upload/1.0.13-SNAPSHOT/31000f7702ce6928bb11dda453de3c29ec605441/ea-upload-1.0.13-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Program Files/gradle_download/caches/modules-2/files-2.1/com.ea/ea-upload/1.0.13-SNAPSHOT/bb1e723c06d70353845e8221afd88164e287e678/ea-upload-1.0.13-SNAPSHOT-sources.jar!/" />
+      <root url="jar://D:/Program Files/gradle_download/caches/modules-2/files-2.1/com.ea/ea-upload/1.0.13-SNAPSHOT/fff77c4778c3421224cba8cdc54d915fb0bdea41/ea-upload-1.0.13-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

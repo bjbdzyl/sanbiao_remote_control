@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/meter-data-transmission.iml" filepath="$PROJECT_DIR$/meter-data-transmission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meter-data-transmission_main.iml" filepath="$PROJECT_DIR$/.idea/modules/meter-data-transmission_main.iml" group="meter-data-transmission" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meter-data-transmission_test.iml" filepath="$PROJECT_DIR$/.idea/modules/meter-data-transmission_test.iml" group="meter-data-transmission" />
+    </modules>
+  </component>
+</project>

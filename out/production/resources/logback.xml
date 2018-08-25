@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 控制台输出 -->   
+   <jmxConfigurator />
+
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<!-- 典型的日志pattern -->
+		<encoder>
+			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+    
+	
+    <!-- 日志输出级别 -->
+    <logger name="AccessInterceptor" level="INFO">
+        <appender-ref ref="console" />
+    </logger>
+    
+   	<!-- root -->
+	<root level="INFO">
+		<appender-ref ref="console" />
+	</root>
+     
+</configuration>

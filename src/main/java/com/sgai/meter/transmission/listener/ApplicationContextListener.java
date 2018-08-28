@@ -25,8 +25,6 @@ public class ApplicationContextListener implements ServletContextListener {
         	AppServiceHelper.setApplicationContext(applicationContext);
         	
 			logger.info("加载系统参数结束！");
-        	
-        	
         } catch (Exception e) {
         	logger.error("error detail:",e);
         }

@@ -4,6 +4,7 @@ import com.sgai.meter.transmission.entity.Statistic;
 import com.sgai.meter.transmission.service.AreaService;
 import com.sgai.meter.transmission.service.DeviceService;
 import com.sgai.meter.transmission.service.HouseholdService;
+import com.sgai.meter.transmission.service.StatisticService;
 import com.szx.core.web.BaseController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -21,13 +22,7 @@ import java.util.List;
 @RequestMapping(value = "admin/statistic")
 public class StatisticController extends BaseController<Statistic> {
     @Autowired
-    DeviceService deviceService;
-
-    @Autowired
-    AreaService areaService;
-
-    @Autowired
-    HouseholdService householdService;
+    StatisticService statisticService;
 
     @ApiOperation(value="查询统计数据") // 尝试支持分页逻辑
     @RequestMapping(value = "/queryStatisticInfo", method = {RequestMethod.GET, RequestMethod.POST})

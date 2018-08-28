@@ -30,7 +30,7 @@ public class Area implements Serializable {
 	@ApiModelProperty(value = "上级名称")
 	private String parentName;
 
-	@ApiModelProperty(value = "id")
+	@ApiModelProperty(value = "区域层级")
 	private Integer areaLevel;
 
 	@ApiModelProperty(value = "id")
